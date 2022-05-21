@@ -1,0 +1,37 @@
+#academia-banner-text {
+    font-size: 1rem;
+    font-weight: 300 !important;
+}
+
+.leaderboard-banner {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.slick-slide {
+    /* max-height: 400px !important; */
+}
+
+@media only screen and (max-width: 767px) {
+    #banner-texts-div {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .leaderboard-banner {
+        display: block;
+    }
+
+    #leaderboard-icon {
+        width: 6rem;
+    }
+
+    #academia-banner-text {
+        text-align: left;
+    }
+
+    #rankings-button {
+        margin-top: 1.5rem;
+    }
+}

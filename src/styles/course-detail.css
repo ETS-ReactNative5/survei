@@ -1,0 +1,427 @@
+#btnFullScreen{
+    padding: 2px 30px 0px 20px;
+    border: none;border-radius: 16px;
+    color: white;
+    height: 35px
+}
+
+#btnFullScreen label{
+    margin-top: -13px;
+    position: absolute;
+    color: white;
+    margin-left: -3px
+}
+
+#btnFullScreen span{
+    font-size: 14pt
+}
+
+#btnFullScreen .material-icons{
+    padding-top: 4px;
+    position: absolute
+}
+
+#detail-btn-help {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.price-type {
+    font-weight: 700;
+}
+
+#non-partner-info {
+    background-color: #2d9cdb;
+    color:white;
+    width:100%;
+    left:0;
+    top: 0;
+    position:absolute;
+    font-face: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+    text-align:center;
+}
+
+#non-partner-info .valign-wrapper {
+    display: block;
+    margin: 0.2rem 0 auto;
+}
+
+#non-partner-info .valign-wrapper span {
+    vertical-align: top;
+}
+
+#non-partner-info .material-icons {
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+    height: auto;
+}
+
+.certificate-star-icon {
+    font-size: 0.9rem;
+}
+
+#course-body {
+    position: relative;
+}
+
+#course-desc {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+#chapter-bookmark-logo {
+    width: 12%;
+    height: 12%;
+}
+
+#coupon-btn-white {
+    background: white;
+    color: #134b95;
+    border: 0.1rem solid #134b95;
+}
+
+.course-cashback {
+    color: #27ae60;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+#course-detail-numbers {
+    margin-bottom: 1.5rem;
+}
+
+#course-title {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-weight: 700;
+}
+
+#course-price {
+    color: #134b95;
+    font-size: 1.5rem;
+}
+
+#give-rating-button {
+    background-color: #2D9CDB;
+}
+
+#custom-resource-icon {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    height: 2rem;
+}
+
+#floating-recap-button {
+    margin-left: 1rem;
+}
+
+#pa-green-logo {
+    height: 36px;
+}
+
+#pac-point-info {
+    padding: 0.5rem;
+}
+
+.topic-length {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #a3a3a3;
+}
+
+#total-chapter-info {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.floating-course-price{
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif;
+    color: #134b95;
+    margin-bottom: 0.5rem;
+}
+
+#user-course-rating-head {
+    font-size: 1rem;
+}
+
+.price-section {
+    margin-top: 0.5rem;
+}
+
+#non-partner-btn-enroll {
+    margin-top: 1.25rem;
+}
+
+#floating-price-type {
+    color: black;
+    font-weight: 700;
+}
+
+.content-desktop {display: block;}
+.content-mobile {display: none;}
+
+/* Dekstop specific settings */
+@media only screen and (min-width: 896px) {
+    #course-price {
+        font-size: 2rem;
+    }
+    #floating-course-bar{
+        position: fixed;
+        width:80%;
+        bottom:0;
+        z-index: 99;
+        margin: 0 auto;
+    }
+    #floating-course-bar #floating-course-title{
+        font-size: 1.5rem;
+    }
+
+
+    #floating-recap-button {
+        margin-left: 0.75rem;
+    }
+
+    #floating-buttons {
+        justify-content: flex-end;
+    }
+
+    #top-course-title {
+        font-size: 1.7rem;
+    }
+}
+
+.redeem-button {
+    height: 3.25rem !important;
+    line-height: 3rem !important;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+/* Mobile specific settings */
+@media only screen and (max-width: 896px) {
+    #floating-course-bar {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        /* padding-top: 0.3rem; */
+    }
+
+    #top-course-title {
+        font-size: 1.5rem;
+    }
+
+    #floating-buttons {
+        justify-content: center;
+    }
+
+    .content-desktop {display: none;}
+    .content-mobile {display: block;}  
+}
+
+@media only screen and (max-width: 1450px) {
+    .digital-platform.tablet {
+        display: flex !important;
+    }
+
+    .digital-platform.desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 897px) and (max-width: 1150px) {
+    #floating-course-bar {
+        width: 100% !important;
+    }
+
+    .digital-platform-narrow {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .digital-platform.mobile {
+        display: block !important;
+    }
+
+    .digital-platform.tablet {
+        display: none !important;
+    }
+
+    .price-section {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .digital-platform.mobile .d-flex a {
+        margin-right: .5rem;
+    }
+
+    #floating-course-bar {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .price-wrapper {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 896px) {
+}
+
+@media only screen and (max-width: 1450px) {
+    .buy-btn.mobile {
+        display: block !important;
+    }
+
+    .buy-btn.desktop {
+        display: none;
+    }
+
+    .digital-platform-wrapper {
+        justify-content: center;
+    }
+
+    .price-wrapper {
+        position: unset !important;
+    }
+}
+
+/* upload ujian praktek */
+
+.wrapper-form-uprak {
+    display: flex;
+    justify-content: center;
+}
+
+.upload-uprak-loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #134b95;
+    width: 80px;
+    height: 80px;
+    margin: 10px auto 0 auto;
+    -webkit-animation: upload-spin 2s linear infinite; /* Safari */
+    animation: upload-spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes upload-spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes upload-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .text-warning {
+      color: hsl(60, 98%, 33%);
+  }
+
+  table.file-list td,th {
+      padding: 0;
+  }
+
+  table.file-list {
+      margin: 1rem .8rem;
+  }
+
+  .bg-danger {
+      background-color: red;
+  }
+
+  button.delete-btn {
+      width: 5rem;
+      padding: 0;
+      margin: .1rem 0;
+  }
+  .text-success {
+      color: rgb(10, 177, 10);
+  }
+
+  .text-danger {
+      color: rgb(199, 0, 0);
+  }
+
+  .font-weight-bold {
+      font-weight: bold;
+  }
+
+  #rich-text-box-modal.modal.open.modal:not(.bottom-sheet) {
+      max-width: 100%;
+  }
+
+  .rich-text-title-wrapper {
+      margin: 0 2.5rem;
+  }
+
+  @media only screen and (max-width: 540px) {
+    .rich-text-title-wrapper {
+        margin: 0 .5rem !important;
+    }
+  }
+
+/* end upload ujian praktek */
+
+.non-clickable {
+    pointer-events: none;
+}
+
+/* digital marketing icons */
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.digital-platform-icon {
+    width: 120px;
+    /* box-shadow: 3px 4px 6px grey; */
+    margin-right: 0.6rem;
+}
+
+.btn-prakerja-digital {
+    padding: 0 1rem !important;
+}
+
+.digital-platform.tablet {
+    display: none;
+}
+
+.digital-platform.mobile {
+    display: none;
+}
+
+.price-section {
+    margin-right: 1rem;
+}
+
+.buy-btn.mobile {
+    display: none;
+}
+
+.price-wrapper {
+    position: absolute;
+    right: 0;
+}

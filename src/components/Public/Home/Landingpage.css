@@ -1,0 +1,718 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.font-orange {
+  font-family: "Roboto", sans-serif;
+}
+
+.bacgroundCategory {
+  background-color: #ffffff;
+  border: 1px solid #f5f5f5;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bacgroundCategory img {
+  padding: 10px;
+  width: 130px !important;
+}
+
+.slide-daftar-kategori .slick-arrow {
+  display: none !important;
+}
+
+#modal-kisah-sukses .modal-content {
+  padding: 24px;
+  background: white;
+}
+#modal-kisah-sukses {
+  max-width: 50% !important;
+  max-height: 100%;
+  top: 5% !important;
+  padding: 0px !important;
+}
+
+.col-images-review {
+  padding: 20px;
+}
+.col-images-review-content {
+  /*background:red;*/
+  min-height: 350px !important;
+  padding: 10px !important;
+}
+
+.col-images-review .video-comment {
+  min-height: 350px !important;
+  max-width: 100% !important;
+  /* margin-left: -5% !important; */
+  margin-top: 0px !important;
+}
+#kisah-sukses-card {
+  border-radius: 10px;
+}
+/*#kisah-sukses-card img {
+    width: 100% !important;
+    border-radius:8px;
+}*/
+#kisah-sukses-card .header_card_img {
+  width: 100% !important;
+  border-radius: 8px;
+}
+
+.card .card-image img {
+  /* height: 135px;
+    border-radius: 10px; */
+}
+.card-content .btnplay {
+  width: 50px !important;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.card-content .btnplay:hover {
+  opacity: 1;
+}
+
+.backgroundTestimoni {
+  background-color: #f2f8ff;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  min-height: 350px !important;
+  /* max-height: 270px !important; */
+}
+
+.testimoni {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.testimoni h5 {
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.testimoni img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  line-height: normal;
+}
+
+.testimonitext {
+  font-size: 10px !important;
+  padding: 5px;
+  text-align: center;
+}
+
+.testimonitext p {
+  line-height: 2;
+}
+
+.icon-home {
+  max-width: 64px !important;
+}
+
+.card {
+  /* width: 400px;
+    height: 400px; */
+  margin: 5px;
+}
+
+.card .card-content {
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.card-item2 span.card-title {
+  display: block;
+  margin-top: -150px !important;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding: 10px;
+}
+
+span.card-title a {
+  color: white;
+}
+
+.cardImage {
+  position: relative;
+  display: block;
+  width: 286px;
+  height: 286px;
+  margin: auto;
+  padding: 10px;
+}
+
+.cardImage h5 {
+  margin-top: -80px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.catImage {
+  width: 286px;
+  height: 286px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card-content .imgProfile {
+  border-radius: 100%;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.categoryText {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  text-shadow: none !important;
+}
+
+.pb-xxl {
+  padding-bottom: 95px;
+}
+
+.slick-slide a img {
+  padding: 0 !important;
+}
+
+.slick-kategory img {
+  width: 250px !important;
+}
+
+.pb-xxl {
+  padding-bottom: 95px;
+}
+
+.slick-slide a img {
+  padding: 0 !important;
+}
+
+@media only screen and (min-width: 767px) {
+  .banner .slick-initialized {
+    height: 100%;
+  }
+
+  .banner .slick-list {
+    /* margin-top: 20px !important; */
+    background-color: white !important;
+    background: white !important;
+    /* height: 600px !important; */
+  }
+
+  .banner .slick-slide img {
+    /* height: 400px !important; */
+    object-fit: contain;
+    width: 100% !important;
+  }
+
+  .kategori .slick-slide {
+    overflow: hidden;
+  }
+
+  .slick-kategory img {
+    width: 150px !important;
+  }
+
+  .categoryText {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: none !important;
+  }
+
+  .facilitator .card {
+    width: 250px;
+    height: 400px;
+    /* margin: 5px;
+        padding: 10px; */
+  }
+
+  .facilitator .card img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .secondRow {
+    margin-top: -20px !important;
+  }
+
+  .card {
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+  }
+
+  /* .card-image img {
+        width: 250px;
+        height: 166px;
+    } */
+
+  .card-item2 span.card-title {
+    display: block;
+    margin-top: -100px !important;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .card .card-item2 img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 200px !important;
+    height: 200px !important;
+    margin-bottom: 5px;
+  }
+
+  .cardImage {
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .cardImage h5 {
+    margin-top: -80px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    text-justify: auto;
+  }
+
+  .catImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+
+.flex-jc-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-white {
+  color: white;
+}
+
+/*   CSS RESPONSIVE  */
+@media only screen and (min-width: 1224px) {
+  .banner .slick-initialized {
+    height: 100%;
+  }
+
+  .banner .slick-list {
+    /* margin-top: 20px !important; */
+    background-color: white !important;
+    background: white !important;
+    /* height: 600px !important; */
+  }
+
+  .banner .slick-slide img {
+    /* height: 400px !important; */
+    object-fit: contain;
+    width: 100% !important;
+  }
+
+  .kategori .slick-slide {
+    overflow: hidden;
+  }
+
+  .slick-kategory img {
+    width: 150px !important;
+  }
+  .card-content .imgProfile {
+    border-radius: 100%;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .card-content .btnplay {
+    width: 50px !important;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .card-content .btnplay:hover {
+    opacity: 1;
+  }
+
+  .ReactPlayerBox {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  .categoryText {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: none !important;
+  }
+
+  .facilitator .card {
+    width: 250px;
+    height: 400px;
+    /* margin: 5px;
+        padding: 10px; */
+  }
+
+  .facilitator .card img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .secondRow {
+    margin-top: -20px !important;
+  }
+
+  .card {
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+  }
+
+  .card-item2 span.card-title {
+    display: block;
+    margin-top: -100px !important;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .card .card-item2 img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 200px !important;
+    height: 200px !important;
+    margin-bottom: 5px;
+  }
+
+  .cardImage {
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .cardImage h5 {
+    margin-top: -80px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    text-justify: auto;
+  }
+
+  .catImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  .ReactPlayerBox {
+    position: relative;
+    /* width: 200px !important;
+        height: 200px !important; */
+    width: 100% !important;
+    text-align: center;
+  }
+
+  #modal-kisah-sukses .modal-content {
+    padding: 24px;
+    background: white;
+  }
+  #modal-kisah-sukses {
+    max-width: 100% !important;
+    max-height: 100%;
+    top: 5% !important;
+    padding: 0px !important;
+  }
+  .review_detail {
+    margin-top: 0px !important;
+  }
+  .col-images-review-content {
+    min-height: 350px !important;
+    padding-left: 90px !important;
+  }
+  .video-comment,
+  .col-images-review-content {
+    /* background: red; */
+  }
+  .fa-close {
+    color: red !important;
+    /* background: black !important; */
+  }
+
+  .col-images-review-content .wrapper-parent {
+    position: unset !important;
+    width: 100% !important;
+  }
+}
+
+/* banner carousel */
+.container.banner .slick-arrow.slick-prev {
+  /* left: -30vw; */
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.container.banner .slick-arrow.slick-next {
+  right: 8px;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container.banner .slick-next:before,
+.container.banner .slick-prev:before {
+  font-size: 50px !important;
+  color: white !important;
+}
+
+.container.banner .slick-slider:hover .slick-arrow.slick-prev {
+  display: block !important;
+  left: -23px;
+  width: 110px;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.container.banner .slick-slider:hover .slick-arrow.slick-next {
+  display: block;
+  width: 50px;
+  transition: 0.3s;
+  opacity: 1;
+}
+/* end banner carousel */
+
+/* banner kisah sukses */
+.container.kategori.slide-kisah-sukses .slick-arrow.slick-prev {
+  /* left: -30vw; */
+  top: 40%;
+  opacity: 0;
+  left: -70px;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.container.kategori.slide-kisah-sukses .slick-arrow.slick-next {
+  opacity: 0;
+  top: 40%;
+  right: 8px;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.container.kategori.slide-kisah-sukses .slick-next:before,
+.container.kategori.slide-kisah-sukses .slick-prev:before {
+  font-size: 40px !important;
+  color: black !important;
+}
+
+.container.kategori.slide-kisah-sukses
+  .slick-slider:hover
+  .slick-arrow.slick-prev {
+  display: block;
+  left: -60px;
+  width: 30px;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.container.kategori.slide-kisah-sukses
+  .slick-slider:hover
+  .slick-arrow.slick-next {
+  display: block;
+  width: 30px;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.container.kategori.slide-kisah-sukses:hover {
+  cursor: pointer;
+}
+/* end banner kisah sukses */
+
+/* user testimoni fix */
+.card-course.card {
+  margin-bottom: 20px;
+  /* border-radius: 15px; */
+}
+
+.card-course.card .card-image img {
+  /* object-fit: cover; */
+}
+
+.card-facilitator-contributor.card {
+  margin-bottom: 20px;
+  /* border-radius: 15px; */
+}
+
+.card-kisah-sukses.card {
+  /* border-radius: 15px; */
+}
+
+.card-kisah-sukses.card .name {
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+.card-kisah-sukses.card .review-detail {
+  text-align: left;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4a4a4a;
+  font-weight: normal;
+}
+
+.card-kisah-sukses.card .card-content {
+  padding: 5px 24px !important;
+}
+
+.card-kisah-sukses.card .card-image img {
+  object-fit: cover;
+  height: 135px;
+  width: 100% !important;
+}
+
+.card-kisah-sukses.card img.circle.imgProfile {
+  margin: 0 10px 0 0 !important;
+  object-fit: cover;
+}
+
+.card-kisah-sukses .btnplay {
+  position: absolute;
+  top: 40px;
+  height: 50px;
+  width: 50px;
+  left: 33%;
+}
+
+.card-kisah-sukses .wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.8rem;
+  min-height: 3.8em;
+}
+
+.card-kisah-sukses .circle.imgProfile {
+  border-radius: 100%;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.card-kisah-sukses .break-word {
+  word-break: break-word;
+}
+
+.card-kisah-sukses .name {
+  font-weight: bold;
+}
+
+.card-kisah-sukses .review-detail {
+  text-align: left;
+  font-size: 13px;
+  line-height: 16px;
+}
+/* end user testimoni fix */
+
+/* sections style fix */
+.pad-l.fadeIn.wow.kenapa-section {
+  padding-bottom: 95px !important;
+}
+
+.col-images-review-content .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.col-images-review-content .wrapper-parent {
+  bottom: 0px;
+  margin-top: 30px;
+  position: absolute;
+  width: 35%;
+}
+
+.col-images-review-content img.review-item {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.col-images-review-content .review-item {
+  margin-right: 0.5em;
+}
+
+.slick-slide.slick-active.slick-kategory {
+}
+/* end sections style fix */
+
+/* wide banner */
+.container.banner {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+/* end wide banner */
+
+/* why choose geti */
+.wow.kenapa-section {
+  background: #fff;
+}
+
+.wow-wrapper {
+  background-image: url("../../../assets/why-choose-geti/BACKGROUND.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 44.5rem;
+}
+
+.wow.kenapa-section h3.font-orange {
+  font-weight: 900;
+}
+
+.wow.kenapa-section .container.center div {
+  padding: 0;
+}
+
+.bacgroundCategory {
+  box-shadow: 2px 4px 10px #4a4a4a;
+  border-radius: 20px;
+  min-height: 137px;
+}
+
+.bacgroundCategory h4 {
+  color: black !important;
+  font-weight: 900;
+}
+
+.bacgroundCategory p {
+  color: black !important;
+  font-weight: 900;
+  font-size: 12px !important;
+}
+
+@media only screen and (max-width: 970px) {
+  .wow-wrapper {
+    background: unset;
+  }
+}
+/* end why choose geti */

@@ -1,0 +1,146 @@
+{
+    "status": "success",
+    "payload": {
+        "uuid": "595190e9-b278-34f3-af44-97df6eefa19a",
+        "title": "Quiz Zaman Digital",
+        "chapter_title" : "Chapter 01",
+        "course_uuid": "b06cdd15-f1d5-4fa7-80b4-745fb74184dc",
+        "questions": [
+            {
+                "uuid": "247838ca-2bf3-3c38-8805-08bdd85ab066",
+                "order": 1,
+                "content": "So they got their tails in their proper places--ALL,' he repeated with great emphasis, looking hard at Alice as he spoke. 'UNimportant, of course, to begin with.' 'A barrowful will do, to begin.",
+                "answers": [
+                    {
+                        "uuid": "54e8b18f-2703-3641-b1cb-9aaec891ca1d",
+                        "content": "Prof. Armand Bartell"
+                    },
+                    {
+                        "uuid": "50dccc39-d44c-3081-bd42-c2a6b638c0ce",
+                        "content": "Brady Barton"
+                    },
+                    {
+                        "uuid": "ddf260c6-1669-3003-ab12-2c5b969b590a",
+                        "content": "Dr. Raymundo Kertzmann"
+                    },
+                    {
+                        "uuid": "9abd8405-6537-32ef-8457-36090977b458",
+                        "content": "Haleigh Padberg IV"
+                    },
+                    {
+                        "uuid": "2367bb4e-525d-3025-94b0-26823fae3283",
+                        "content": "Grace Gutkowski"
+                    }
+                ]
+            },
+            {
+                "uuid": "be7e9f15-ed75-3ec9-8d5c-9f8cf27e537a",
+                "order": 2,
+                "content": "Alice began in a dreamy sort of way, 'Do cats eat bats, I wonder?' And here poor Alice began to get through was more hopeless than ever: she sat still and said 'That's very curious.' 'It's all his.",
+                "answers": [
+                    {
+                        "uuid": "6918aa1c-2783-3642-b842-b81c31e33dff",
+                        "content": "Zella Sipes"
+                    },
+                    {
+                        "uuid": "dfd66bdc-5ed1-37f6-ba0c-cf198f8ea39d",
+                        "content": "Dr. Rogelio Mante"
+                    },
+                    {
+                        "uuid": "63f2e447-df31-3e9a-a831-827c7a9c2196",
+                        "content": "Mr. Douglas Wolff Sr."
+                    },
+                    {
+                        "uuid": "2bc428bc-10f9-3df0-97fc-2b905fc8a847",
+                        "content": "Katelyn Blick"
+                    },
+                    {
+                        "uuid": "e23832a5-d910-38ff-b569-018dac0dcaf7",
+                        "content": "Amparo Walker"
+                    }
+                ]
+            },
+            {
+                "uuid": "8a6c19e5-5a36-3ad0-a067-e11688635522",
+                "order": 3,
+                "content": "I see\"!' 'You might just as she had somehow fallen into it: there was nothing on it (as she had plenty of time as she could, and waited till the eyes appeared, and then added them up, and reduced.",
+                "answers": [
+                    {
+                        "uuid": "8ec482f9-1102-3b0b-9606-b989599305ab",
+                        "content": "Damien Koepp"
+                    },
+                    {
+                        "uuid": "722a6472-b381-3e34-b712-4ba4ada845c3",
+                        "content": "Mrs. Shanel Emard"
+                    },
+                    {
+                        "uuid": "4d16d82c-2def-36f7-9403-f0cf6fe9cb9f",
+                        "content": "Nico Boyer PhD"
+                    },
+                    {
+                        "uuid": "d5705f83-fe7d-3162-8823-7fe2655ac22e",
+                        "content": "Ofelia Rosenbaum I"
+                    },
+                    {
+                        "uuid": "36fc2df3-6c11-3b4a-80a7-4583b7c3bb86",
+                        "content": "Katarina Abbott"
+                    }
+                ]
+            },
+            {
+                "uuid": "4dbe1afe-b61b-3f9f-9757-0fdb33290777",
+                "order": 4,
+                "content": "They all made a rush at the Hatter, and, just as well. The twelve jurors were all ornamented with hearts. Next came an angry voice--the Rabbit's--'Pat! Pat! Where are you?' said the Pigeon had.",
+                "answers": [
+                    {
+                        "uuid": "4c85c682-b2d1-3941-bc0e-279df22835c6",
+                        "content": "Enoch Rosenbaum"
+                    },
+                    {
+                        "uuid": "d67002c0-7343-304a-a104-0e032dec6550",
+                        "content": "Velva Lind"
+                    },
+                    {
+                        "uuid": "b88a57f2-1ad1-33b2-8b19-b2f2451fca43",
+                        "content": "Krystina Russel"
+                    },
+                    {
+                        "uuid": "1048aa5c-3351-3647-a01d-95be9d7b3146",
+                        "content": "Russ Yost"
+                    },
+                    {
+                        "uuid": "840a432f-6e53-3bc1-9e40-6cd4d19c4a2e",
+                        "content": "Dr. Billie Gleichner"
+                    }
+                ]
+            },
+            {
+                "uuid": "e5b230b8-dd9e-3eac-964a-e97f260924fd",
+                "order": 5,
+                "content": "Dodo, 'the best way you can;--but I must have been a holiday?' 'Of course not,' Alice replied in an angry tone, 'Why, Mary Ann, what ARE you doing out here? Run home this moment, and fetch me a pair.",
+                "answers": [
+                    {
+                        "uuid": "32f0e1aa-2c8f-34b8-a65c-ef3716700746",
+                        "content": "Beulah Bartell"
+                    },
+                    {
+                        "uuid": "cd9298aa-4a57-3ded-92f7-38e3003da919",
+                        "content": "Wilhelmine Gerlach"
+                    },
+                    {
+                        "uuid": "e1b1ecfa-8bdc-3fca-92b5-86bdf4810be2",
+                        "content": "Trent Wilkinson"
+                    },
+                    {
+                        "uuid": "e43ec8df-af96-35e5-a0a1-52577a42d796",
+                        "content": "Dr. Dorothea Beahan DVM"
+                    },
+                    {
+                        "uuid": "ae2ae923-f6b7-3e1d-bbb7-d29e236b6c73",
+                        "content": "Prof. Khalid Brekke IV"
+                    }
+                ]
+            }
+        ]
+    }
+}

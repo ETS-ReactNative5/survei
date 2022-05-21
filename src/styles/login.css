@@ -1,0 +1,8 @@
+#captcha-field {
+	margin-top: 2rem;
+}
+
+#captcha-field label {
+	margin-bottom: 1rem;
+	position: relative;
+}

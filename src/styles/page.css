@@ -1,0 +1,14 @@
+#reload-message-div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    display:none;
+}
+
+#reload-message-div p {
+    line-height: 1.5rem;
+}
+
+#reload-message-div p span {
+    display: block;
+}

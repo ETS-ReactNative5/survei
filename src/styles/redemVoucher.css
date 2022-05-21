@@ -1,0 +1,14 @@
+select.browser-default {
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }

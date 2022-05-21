@@ -1,0 +1,76 @@
+#form-register input {
+    padding-left: 4.5px;
+}
+
+select.drop-down {
+    display: unset;
+    border: 0;
+    padding: 0;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    background-color: transparent;
+    position: unset;
+    width: 100%;
+    height: 3rem;
+    opacity: 1;
+    text-indent: unset;
+    pointer-events: unset;
+}
+
+select.drop-down:hover {
+    cursor: pointer;
+}
+
+select.drop-down:focus {
+    color: inherit;
+}
+
+.text-grey {
+    color: #9e9e9e;
+}
+
+.text-inherit {
+    color: inherit;
+}
+
+.autocomplete-list {
+    width: 101%;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    border-right: 1px solid #9e9e9e;
+    border-bottom: 1px solid #9e9e9e;
+    border-left: 1px solid #9e9e9e;
+    margin: 0;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.autocomplete-item {
+    padding: .5rem .4rem;
+}
+
+.autocomplete-item:hover {
+    background-color: #ebe8e8;
+    cursor: pointer;
+}
+
+input.autocomplete-form {
+    margin-bottom: .05rem !important;
+}
+
+.autocomplete-none {
+    display: none;
+}
+
+.autocomplete-item.active {
+    background-color: #ebe8e8;
+    cursor: pointer;
+}
+
+.input-field.autocomplete-form {
+    margin-bottom: 2.5rem;
+}

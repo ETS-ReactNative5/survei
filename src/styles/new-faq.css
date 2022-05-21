@@ -1,0 +1,27 @@
+#academia-intro {
+    text-align: justify;
+    text-indent: 2rem;
+    margin-top: 1rem;
+}
+
+#collapsible-item-title {
+    margin-right: 1rem;
+}
+
+.chevron-down-collapsible {
+    position: absolute;
+    right: 0.5rem !important;
+    top: 1rem !important;
+    margin-right: 0;
+}
+
+.collapsible-content .collapsible-body {
+    padding: 1.25rem;
+    text-align: justify
+}
+
+.logo-center {
+    display: block;
+    margin: 3rem auto 0;
+    filter: invert(100%);
+}

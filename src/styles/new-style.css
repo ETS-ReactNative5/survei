@@ -1,0 +1,16 @@
+.btn-pa {
+    margin: 0;
+    height: auto !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: normal !important;
+    font-size: 0.9em;
+}
+
+.btn-pa:hover {
+    line-height: normal;
+}
+
+.btn-pa.full-width-buttons {
+    padding: 15px 0;
+}

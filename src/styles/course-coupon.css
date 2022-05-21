@@ -1,0 +1,54 @@
+#coupon-detail-display {
+    display: block;
+    margin: 0 auto;
+    border: solid #134b95 0.2rem;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.coupon-code {
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.coupon-code-div {
+    padding-left: 0.5rem !important;
+    position: relative;
+    padding-right: 0.5rem !important;
+}
+
+.coupon-code-div .btn{
+    font-size: 1rem;
+    height: 2rem;
+    line-height: 2rem;
+    width: 90%;
+}
+
+.coupon-code-div .item-detail {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    transform: translate(0, 25%);
+}
+
+.detail-labels {
+    font-weight: 700;
+}
+
+.item-detail-div {
+    border-right: 0.1rem solid #134b95 !important;
+}
+
+.item-detail {
+    text-align: left;
+    padding: 0.1rem 0.5rem;
+}
+
+.item-detail .btn {
+    margin-top: 1.3rem;
+}
+
+.mb-l-responsive {
+    margin-bottom: 1rem;
+}

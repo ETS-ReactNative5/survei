@@ -1,0 +1,24 @@
+#calc-container {
+        background-color: #f2f2f2;
+        padding: 1rem;
+}
+
+.item-component {
+    margin-bottom: 0 !important;
+}
+
+#enroll-btn {
+    margin-top: 2rem;
+}
+
+.voucher-payment-button {
+    width: 47%;
+    margin-bottom: 2rem;
+}
+
+.voucher-cancel {
+    background-color: white;
+    color: #134b95;
+    border: solid 0.2rem #134b95;
+    line-height: 0 !important;
+}

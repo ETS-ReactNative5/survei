@@ -1,0 +1,172 @@
+#current_user_row {
+    background-image: linear-gradient(to right, #2E70C3, #7BADDE, #84B4E1);
+    width:100%;
+    color: white;
+}
+#current_user_row .leaderboard-userid {
+    color: white;
+}
+#current_user_row .leaderboard-currency-icon {
+    filter: brightness(0) invert(1);
+}
+
+td:first-child, td:last-child {
+    padding-left : 20px;
+}
+
+#first-rank {
+    border-top: solid 2px #fafafa;
+}
+
+.ranking-row {
+    border-bottom: solid 2px #fafafa;
+}
+
+#leaderboard-period .s2 .material-icons {
+    padding-top: 0.3rem;
+}
+
+#leaderboard-period .s11{
+    padding-left: 0.5rem;
+}
+
+#leaderboard-period-select .input-field {
+    width: 100%;
+}
+
+#period-select {
+    transition: none;
+}
+
+#leaderboard-preloader-div {
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.leaderboard-preloader {
+    margin: 0 auto;
+    display:block;
+}
+
+.leaderboard-currency-icon {
+    width: 1.25rem;
+}
+.leaderboard-profpic {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.6rem;
+}
+
+.leaderboard-name {
+    display:block;
+    width: 90%;
+}
+
+.leaderboard-userid {
+    color: #a1a1a1;
+    display:block;
+    width: 100%;
+    margin-left: 0.7rem;
+}
+
+.ranking-search-div {
+    width: 100%;
+    border: solid #e0e0e0 0.05rem !important;
+    border-radius: 0.3rem !important;
+    margin-bottom: 1rem;
+}
+
+.ranking-search-icon {
+    width: 1.25rem;
+}
+
+.ranking-search-div .col .input-field input {
+    padding-left: 1rem;
+    height: 1rem;
+    border-bottom: none;
+    margin: 0;
+}
+
+.ranking-search-div .col .input-field input:focus {
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.ranking-search-div .s10{
+    margin-top:-0.3rem;
+}
+
+.ranking-search-div .s2{
+    margin-top: 0.9rem;
+}
+
+.ranking-search-div img {
+    width: 1rem;
+}
+
+
+
+@media only screen and (min-width: 700px) {
+
+    #leaderboard-period {
+        margin-left: 1.5rem;
+        margin-top: 0.7rem;
+    }
+
+    #leaderboard-period-select .input-field{
+        width: 75%;
+    }
+
+    .leaderboard-points {
+        margin-top: 0.1rem;
+    }
+
+    .leaderboard-table {
+      padding: 1rem;
+    }
+
+    .leaderboard-userid {
+        margin-left: 0.3rem;
+        color: #a1a1a1;
+    }
+
+    #period-and-search {
+        display:flex;
+        -webkit-box-align:center;
+        align-items: center;
+    }
+
+    .ranking-search-div {
+        margin-top:  0.5rem;
+        border: solid #e0e0e0 0.05rem !important;
+        border-radius: 0.3rem !important;
+        margin-right: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .top-3 {
+        display:none !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .leaderboard-points {
+        margin-top: 0.25rem;
+        padding-right: 1rem !important;
+    }
+
+    #div-1 {
+        width: 95px;
+    }
+    #div-2 {
+        width: 130px;
+    }
+    #div-3 {
+        width: 95px;
+    }
+    .top-3 {
+        display: table-row;
+    }
+}

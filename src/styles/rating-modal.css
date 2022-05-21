@@ -1,0 +1,48 @@
+#rating-block {
+    text-align:center;
+    border: 0.1rem solid #e0e0e0;
+    border-radius: 3px;
+    padding: 1rem 1rem;
+    margin: 1rem auto;
+}
+
+#rating-title {
+    display:block;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+}
+
+#rating-modal-button {
+    display:block;
+    width: 100%;
+    font-size: 1.15rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+#comment-block {
+    margin: 1.5rem auto;
+}
+
+#comment-title {
+    display:block;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    font-weight: 700;
+}
+
+#rating-topic {
+    font-weight: 700;
+}
+
+.top-right-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.top-right-button .fa-close{
+    color: red;
+    font-size: 1.5rem;
+}

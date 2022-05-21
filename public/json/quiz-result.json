@@ -1,0 +1,14 @@
+{
+    "status": "success",
+    "payload": {
+        "uuid": "595190e9-b278-34f3-af44-97df6eefa19a",
+        "title": "Quiz Zaman Digital",
+        "chapter_title": "Chapter 01",
+        "course_uuid": "b06cdd15-f1d5-4fa7-80b4-745fb74184dc",
+        "correct_answer_count": 4,
+        "question_count": 5,
+        "pass_mark": 80,
+        "is_last_chapter" : false,
+        "attempted_at": "2017-08-08 00:00:00"
+    }
+}

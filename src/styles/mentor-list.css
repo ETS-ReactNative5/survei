@@ -1,0 +1,157 @@
+.clipboard-copy {
+    background-color:white;
+    border: none;
+    margin-left: 1rem;
+}
+.collapsible-header i {
+    position: absolute;
+    right: 1rem;
+    top: auto;
+}
+
+.copy-button-div img {
+    width: 1.5rem;
+    height: auto;
+    margin-right: 0.4rem;
+}
+
+#empty-request-state {
+    text-align: center;
+    padding: 1rem;
+}
+
+#empty-request-state img {
+    width: 70%;
+    height: auto;
+}
+
+#empty-request-state p {
+    line-height: 1.25rem;
+}
+
+#get-code-btn {
+    padding: 1rem;
+    width: 100%;
+}
+
+#get-code-btn button {
+    float: right;
+    font-size: 1rem;
+    line-height: 0;
+    height: 2.15rem;
+}
+
+#histori-kkm {
+    padding-top: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#histori-kkm .input-field {
+    width:90%;
+}
+
+#histori-kkm #search-bar {
+    border-bottom: 0;
+    margin-bottom: 0.25rem;
+    padding-left: 0.5rem;
+}
+
+#histori-kkm #search-icon {
+    width: 1.25rem;
+    float: right;
+}
+
+.kkm-codes {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.kkm-head{
+    font-size: 0.9rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #828282;
+}
+
+.pad-small {
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+#mentor-course-button {
+    text-align:center;
+    margin-top:1rem;
+}
+
+#mentor-course-button .btn{
+    font-size:1rem;
+}
+
+#mentor-requirements {
+    padding: 1rem;
+}
+
+.mentor-requirement-icon {
+    width: 10%;
+    vertical-align: sub;
+}
+
+
+.mentor-requirement-icon img {
+    width: 1rem;
+}
+
+.mentor-requirement-text {
+    width: 90%;
+    text-align: justify;
+    vertical-align: super;
+}
+
+.mentor-requirement-text {
+    font-size: 1rem;
+}
+
+.pad-small .collapsible-header {
+    border-bottom: none;
+}
+
+.request-box {
+    margin: 1rem auto;
+    padding: 1.15rem;
+}
+
+.request-box #div-code {
+    float: left;
+}
+
+.request-box .copy-button {
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
+    margin-left: 1rem;
+}
+
+.request-code-div {
+    float:right;
+}
+
+#request-expired-date {
+    display: inline-block;
+    margin-top: 0.85rem;
+}
+
+#request-kkm-title {
+    margin-top: 1.5rem;
+    color: #828282;
+}
+
+.webview-special {
+    position:absolute;
+    top: 0;
+    width: 100%;
+}
+
+.webview-special .collapsible {
+    border: 0;
+}

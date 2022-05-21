@@ -1,0 +1,42 @@
+#leaderboard-banner {
+  padding-left: 2rem;
+}
+
+#leaderboard-banner img {
+    width: 100%;
+}
+
+#leaderboard-banner span {
+    font-size: 1rem;
+    font-weight: 300 !important;
+    color: white;
+    display: block;
+}
+
+#leaderboard-container {
+    margin-top: 1rem;
+    font-size: 0.9rem !important;
+}
+
+#leaderboard-container .select-dropdown {
+    font-size: 0.8rem;
+}
+
+#leaderboard-container .tab a {
+    font-size: 0.9rem !important;
+}
+
+#leaderboard-faq-button {
+    position: fixed;
+    bottom: 11px;
+    right: 23px;
+}
+
+#leaderboard-inner {
+    padding-top: 1.5rem;
+}
+
+.leaderboard-tabs li {
+    width: 50%;
+    margin: auto;
+}

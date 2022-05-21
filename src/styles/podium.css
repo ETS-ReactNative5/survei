@@ -1,0 +1,72 @@
+#div-2 {
+    width: 140px;
+}
+#div-1 {
+    width: 163px;
+}
+#div-3 {
+    width: 145px;
+}
+#leaderboard-podium {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5rem;
+    justify-content:center;
+    background-image: url('../assets/confetti.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.podium {
+    position: relative;
+    max-width:100%;
+}
+.podium img {
+    max-width: initial;
+}
+.podium-seaters {
+    padding-left: 31%;
+    position: absolute;
+    top: 0;
+    transform: translate(0, -45%);
+}
+.user-id {
+    color: #bdbdbd;
+    font-weight: 700;
+}
+.user-name {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: normal;
+}
+.user-points {
+    background-color: #f2c94c;
+    border-radius: 5px;
+    color: white;
+    margin-top: 0.3rem;
+    padding: 0.3rem;
+}
+
+.user-points img {
+    vertical-align: middle;
+    width: 1rem;
+}
+
+.user-info {
+    text-align: center;
+}
+.user-info span {
+    display: block;
+    width: 100%;
+}
+.user-profpic {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 8%;
+}
+@media only screen and (max-width: 700px) {
+    #leaderboard-podium {
+        display: none;
+    }
+}

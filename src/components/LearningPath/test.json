@@ -1,0 +1,276 @@
+{
+    "status": "success",
+    "payload": {
+        "uuid": "b06cdd15-f1d5-4fa7-80b4-745fb74184dc",
+        "title": "Zaman Digital",
+        "price": 0,
+        "description": "Perubahan zaman dari analog ke digital telah dimulai beberapa puluh tahun lalu. Kini saatnya era digital!",
+        "created_at": "2017-08-10 17:50:29",
+        "updated_at": "2017-09-20 18:18:06",
+        "thumbnail": "http://api.paytrenacademy.com:8001/v2/media/course/b06cdd15-f1d5-4fa7-80b4-745fb74184dc/thumbnail",
+        "deleted_at": null,
+        "status": 99,
+        "cashback": 0,
+        "pac_point": 0,
+        "course_image": "http://api.paytrenacademy.com:8001/v2/media/course/b06cdd15-f1d5-4fa7-80b4-745fb74184dc/thumbnail",
+        "user_cashback": 0,
+        "put_price": 0,
+        "category": {
+            "id": 19,
+            "name": "Ekonomi Digital"
+        },
+        "modules": [
+            {
+                "uuid": "ce0bbda4-9ddd-433a-ba0b-f9aba07f8588",
+                "order": 1,
+                "title": "Chapter 1",
+                "description": "Chapter 1",
+                "topics": [
+                    {
+                        "uuid": "c693e0f5-795a-4622-8f45-512d521c0047",
+                        "order": 0,
+                        "title": "Intro",
+                        "description": "",
+                        "resource_type": 1,
+                        "resource_length": "05:57",
+                        "resource_mime": "video/mp4",
+                        "resource_url": "http://180.250.246.28:1935/course_dev/definst/mp4:c693e0f5-795a-4622-8f45-512d521c0047/video/playlist.m3u8",
+                        "locked": false,
+                        "completed": false,
+                        "last_accessed": "2017-09-26 23:31:48",
+                        "download_url": "",
+                        "resource_secure_url": "https://pa.mytreni.com:1935/course_dev/definst/mp4:c693e0f5-795a-4622-8f45-512d521c0047/video/playlist.m3u8"
+                    },
+                    {
+                        "uuid": "db4421ad-fc63-4507-92eb-3a940891d25a",
+                        "order": 1,
+                        "title": "Zaman Digital",
+                        "description": "",
+                        "resource_type": 2,
+                        "resource_length": "04:50",
+                        "resource_mime": "audio/mp3",
+                        "resource_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": "2017-09-26 23:31:48",
+                        "download_url": "",
+                        "resource_secure_url": "https://pa.mytreni.com:1935/course_dev/definst/mp3:db4421ad-fc63-4507-92eb-3a940891d25a/video/playlist.m3u8"
+                    },
+                    {
+                        "uuid": "623edd47-81b5-4f83-a49c-fc4e4d5822d1",
+                        "order": 999,
+                        "title": "Kuis Jali-jali",
+                        "description": "",
+                        "resource_type": 4,
+                        "resource_length": "6 pertanyaan",
+                        "resource_mime": "",
+                        "resource_url": "",
+                        "download_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": "2017-11-24 18:10:04"
+                    }
+                ]
+            },
+            {
+                "uuid": "e0e3be02-ed9c-4fb7-ab3e-01570dd7eaf5",
+                "order": 1,
+                "title": "Chapter 2 asd",
+                "description": "Chapter 2",
+                "topics": [
+                    {
+                        "uuid": "9f3c259a-daf2-4172-bbfe-8b9ee255bcc7",
+                        "order": 0,
+                        "title": "Tes 1",
+                        "description": "",
+                        "resource_type": 3,
+                        "resource_length": "74.2KB",
+                        "resource_mime": "application/pdf",
+                        "resource_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": "2017-09-26 23:31:48",
+                        "download_url": "",
+                        "resource_secure_url": "http://api.paytrenacademy.com:8001/v2/media/lecture/9f3c259a-daf2-4172-bbfe-8b9ee255bcc7/resource"
+                    },
+                    {
+                        "uuid": "718ff927-8e87-42a1-8c2f-7cb09fdf2b84",
+                        "order": 1,
+                        "title": "Zaman Analog",
+                        "description": "",
+                        "resource_type": 3,
+                        "resource_length": "265.2KB",
+                        "resource_mime": "application/pdf",
+                        "resource_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": "2017-09-26 23:31:48",
+                        "download_url": "",
+                        "resource_secure_url": "http://api.paytrenacademy.com:8001/v2/media/lecture/718ff927-8e87-42a1-8c2f-7cb09fdf2b84/resource"
+                    },
+                    {
+                        "uuid": "564257f2-2039-4cdf-bf2a-55b168e66d6a",
+                        "order": 2,
+                        "title": "Tes 2",
+                        "description": "",
+                        "resource_type": 3,
+                        "resource_length": "68.1KB",
+                        "resource_mime": "application/pdf",
+                        "resource_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": "2017-09-26 23:31:48",
+                        "download_url": "",
+                        "resource_secure_url": "http://api.paytrenacademy.com:8001/v2/media/lecture/564257f2-2039-4cdf-bf2a-55b168e66d6a/resource"
+                    },
+                    {
+                        "uuid": "afa2af11-2e25-4a7d-8054-80f993d482cc",
+                        "order": 999,
+                        "title": "Chapter 2",
+                        "description": "",
+                        "resource_type": 4,
+                        "resource_length": "5 pertanyaan",
+                        "resource_mime": "",
+                        "resource_url": "",
+                        "download_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": null
+                    }
+                ]
+            },
+            {
+                "uuid": "74dd3bd3-d48a-4828-8e48-964f404a3cf1",
+                "order": 2,
+                "title": "Chapter 3 enter",
+                "description": "Chapter 3",
+                "topics": [
+                    {
+                        "uuid": "2316e3fe-8b24-4cfc-b76e-c14bd78da8c2",
+                        "order": 0,
+                        "title": "Tes 2",
+                        "description": "",
+                        "resource_type": 3,
+                        "resource_length": "74.2KB",
+                        "resource_mime": "application/pdf",
+                        "resource_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": "2017-09-26 23:31:48",
+                        "download_url": "",
+                        "resource_secure_url": "http://api.paytrenacademy.com:8001/v2/media/lecture/2316e3fe-8b24-4cfc-b76e-c14bd78da8c2/resource"
+                    },
+                    {
+                        "uuid": "0d7dace4-09e4-4012-bbe0-feb928fabef1",
+                        "order": 1,
+                        "title": "Tes 1",
+                        "description": "",
+                        "resource_type": 3,
+                        "resource_length": "68.1KB",
+                        "resource_mime": "application/pdf",
+                        "resource_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": "2017-09-26 23:31:48",
+                        "download_url": "",
+                        "resource_secure_url": "http://api.paytrenacademy.com:8001/v2/media/lecture/0d7dace4-09e4-4012-bbe0-feb928fabef1/resource"
+                    },
+                    {
+                        "uuid": "306638b7-3a1e-4e30-aeea-3b6229eaaed3",
+                        "order": 999,
+                        "title": "Kuis Chapter 3",
+                        "description": "",
+                        "resource_type": 4,
+                        "resource_length": "5 pertanyaan",
+                        "resource_mime": "",
+                        "resource_url": "",
+                        "download_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": null
+                    }
+                ]
+            },
+            {
+                "uuid": "37b21592-6bf6-481a-82ef-86775e622f40",
+                "order": 3,
+                "title": "Chapter 4",
+                "description": "Chapter 4",
+                "topics": [
+                    {
+                        "uuid": "bdde447c-7b96-4b7b-9300-8f11c7e78f43",
+                        "order": 0,
+                        "title": "Tes 2",
+                        "description": "",
+                        "resource_type": 3,
+                        "resource_length": "43.5KB",
+                        "resource_mime": "application/pdf",
+                        "resource_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": "2017-09-26 23:31:48",
+                        "download_url": "",
+                        "resource_secure_url": "http://api.paytrenacademy.com:8001/v2/media/lecture/bdde447c-7b96-4b7b-9300-8f11c7e78f43/resource"
+                    },
+                    {
+                        "uuid": "6bad7142-fe5f-4c0d-8d35-a42216e348d7",
+                        "order": 999,
+                        "title": "Kuis Chapter 4",
+                        "description": "",
+                        "resource_type": 4,
+                        "resource_length": "5 pertanyaan",
+                        "resource_mime": "",
+                        "resource_url": "",
+                        "download_url": "",
+                        "locked": true,
+                        "completed": false,
+                        "last_accessed": null
+                    }
+                ]
+            },
+            {
+                "uuid": "fbf0fdaf-1f47-4035-a039-03340ba0754e",
+                "order": 4,
+                "title": "Chapter 5",
+                "description": "Test input kuis",
+                "topics": []
+            }
+        ],
+        "enrolled": false,
+        "favourites": false,
+        "completed": false,
+        "voucher_redeemable": true,
+        "instructor": "Andika Amri",
+        "instructor_detail": "Product Manager",
+        "instructor_avatar": "http://api.paytrenacademy.com:8001/admin/avatar/78e49157-f56c-4f27-8512-43d49b27dd8e",
+        "required_course": {
+            "uuid": "4ae0326a-ef51-4daf-9d91-7618e82074b0",
+            "title": "Kekuatan Doa",
+            "instructor": "Ustadz Anwar Sani",
+            "price": 25000,
+            "thumbnail": "http://api.paytrenacademy.com:8001/v2/media/course/4ae0326a-ef51-4daf-9d91-7618e82074b0/thumbnail",
+            "enrolled": false,
+            "best_seller": false
+        },
+        "course_journey": {
+            "uuid": "2ce07a6d-4b8d-30ae-81a7-51e5452578b1",
+            "title": "Porro et inventore iusto laborum.",
+            "categories": [
+                {
+                    "id": 2,
+                    "name": "Motivasi dan Inspirasi"
+                },
+                {
+                    "id": 11,
+                    "name": "Kanal Inspirasi Leader"
+                },
+                {
+                    "id": 12,
+                    "name": "Kanal UYM"
+                }
+            ],
+            "thumbnail": "http://api.paytrenacademy.com:8001/v2/media/course/4ae0326a-ef51-4daf-9d91-7618e82074b0/thumbnail",
+            "course_count": 4
+        }
+    }
+}

@@ -1,0 +1,6 @@
+#player .html5-video-player .ytp-pause-overlay{
+    bottom: 0;
+    display: none !important;
+    visibility: hidden;
+    top: 0;
+}

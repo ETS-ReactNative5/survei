@@ -1,0 +1,30 @@
+.survey-container {
+	padding-top: 7rem;
+}
+
+.survey-header {
+	background-image: url("../assets/survey-img/Body-02.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.h2-survey-banner {
+	font-size: 3.25rem;
+}
+
+.p-survey-banner {
+	line-height: 1.5rem;
+	font-size: 16px;
+}
+
+.survey-banner {
+	height: auto;
+	width: 100%;
+}
+
+.survey-body {
+	background-image: url("../assets/survey-img/Body-04.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}

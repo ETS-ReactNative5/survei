@@ -1,0 +1,40 @@
+iframe {
+    width: 85%;
+}
+
+#odoa-bg-div {
+    padding-top: 1.5rem;
+}
+
+.odoa-content {
+    margin: 1.5rem auto;
+}
+
+.odoa-inner-div {
+    padding: 0rem 1.5rem !important;
+}
+
+.odoa-info-tables {
+    border: 3px solid;
+}
+
+.odoa-info-titles {
+    background: #134b95;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.odoa-period-info {
+    display: inline-block;
+}
+
+.odoa-info-row {
+    text-align: center;
+}
+
+.odoa-program-link {
+    text-decoration: underline;
+    color: #2C9BE7;
+}

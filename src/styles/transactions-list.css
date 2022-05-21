@@ -1,0 +1,95 @@
+.item-label {
+    color: #2d9cdb;
+    font-weight: 600;
+}
+
+.trx-not-found img {
+    width: 6rem !important;
+}
+
+.trx-not-found h5 {
+    margin-top: 1rem;
+}
+
+.payment-label {
+    color: #828282;
+}
+
+.price-label {
+    color: #eb5757;
+}
+
+.radio-button-div label {
+    color: black;
+}
+
+.transaction-date {
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+}
+
+.transaction-labels{
+    display: inline-block;
+    margin-bottom: 0.7rem;
+}
+
+.transaction-payment-info {
+    text-align: right;
+}
+
+#trx-filter-modal {
+    top: auto;
+    bottom: 0;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+#trx-filter-modal .fa-close {
+    position: absolute;
+    right: 0;
+    margin-right: 1.5rem;
+    margin-top: -1.2rem;
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 799px) {
+    .trx-item {
+        margin-left: 0 !important;
+    }
+    .trx-item-image {
+        display:none;
+    }
+    .trx-not-found img {
+        width: 40% !important;
+    }
+    .trx-not-found {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+    #trx-filter-desktop {
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 799px) {
+    .trx-not-found {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    .trx-not-found img {
+        width: 6rem !important;
+    }
+
+    .full-width-filter-button {
+        display: none;
+    }
+
+    #filter-contents {
+        padding-top: 1.5rem;
+    }
+}

@@ -1,0 +1,104 @@
+@media only screen and (max-width: 805px) {
+    #coupon-code-box {
+        width:100%;
+        font-weight: 700;
+        font-size: 1.5rem;
+        height: 3rem;
+        line-height: 3rem;
+        border-radius: 0.35rem;
+    }
+
+    .wide-center .m8 h5 {
+        text-align: center;
+    }
+
+    .wide-center .m4 h5 {
+        text-align: center;
+    }
+
+    #coupon-info p {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .coupon-item-image {
+        display: none;
+    }
+
+    #coupon-content {
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    #coupon-price-div {
+        padding-top:1.5rem;
+    }
+
+    #coupon-price {
+        text-align: center;
+    }
+
+    #course-coupon-instructor {
+        text-align: center;
+    }
+
+    #coupon-price-chevron {
+        display: none;
+    }
+
+    #course-info-div {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 805px) {
+    #coupon-code-box {
+        width:95%;
+        font-weight: 700;
+        font-size: 1.5rem;
+        height: 3rem;
+        line-height: 3rem;
+        border-radius: 0.35rem;
+    }
+
+    #coupon-price-div {
+        padding: 2.5rem 0;
+    }
+}
+
+.course-detail-coupon {
+    border-bottom: 0 !important;
+    padding-top: 0.8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.course-detail-coupon:hover {
+    border: solid 0.1rem #134b95;
+    border-bottom: solid 0.1rem #134b95 !important;
+}
+
+#coupon-price-chevron {
+    font-size: 1.5rem;
+}
+
+
+#coupon-price {
+    font-weight: 700;
+}
+
+#coupon-info {
+    margin-top: -0.5rem;
+}
+
+.copy-btn{
+    height: 3rem !important;
+    line-height: 3rem !important;
+    border-radius: 0.35rem !important;
+    font-size: 1.1rem;
+}
+
+.wide-center .l3 {
+    float:right;
+}

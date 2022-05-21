@@ -1,0 +1,14 @@
+#payment-code-instructions {
+    background-color: #e0e0e0;
+    margin-top: 2rem;
+    border-radius: 12px;
+    padding: 0.5rem 0.9rem;
+}
+
+#payment-code-instructions ol {
+    padding-inline-start: 1em;
+}
+
+#payment-code-instructions li {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,13 @@
+.non-partner-text p span {
+    vertical-align: top;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.non-partner-text p {
+    color: red;
+}
+
+.non-partner-text p .material-icons {
+    margin-top: 0.2rem;
+}

@@ -1,0 +1,52 @@
+.text-center {
+    text-align: center;
+}
+
+.list-data {
+    border-left: 1px solid #dfdfdf;
+    padding-left: 1rem !important;
+}
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.font-normal-weight {
+    font-weight: normal !important;
+}
+
+.btn-hovered:hover h5, .btn-hovered:hover i {
+    cursor: pointer;
+    color: rgba(0,0,0,0.71) !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 850px) {
+    .view-data .row .col:first-child {
+        width: 35%;
+    }
+
+    .view-data .row .col:nth-child(2) {
+        width: 65%;
+    }
+
+    .edit-data .row .col {
+        width: 100%;
+    }
+}
