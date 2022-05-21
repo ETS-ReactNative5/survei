@@ -13,22 +13,23 @@ class Survey extends Page {
 			dateFormType: "text",
 			autoCompleteVisibility: {
 				province: false,
-				city: false,
+				course: false,
 			},
 			autoCompleteActive: {
 				province: false,
-				city: false,
+				course: false,
 			},
 			startEditDomisili: false,
 			pointer: {
 				province: 0,
-				city: 0,
+				course: 0,
 			},
 			startPointer: false,
 			provincesData: [],
 			provincesData_filtered: [],
 			genderData: ["L", "P"],
 			coursesData: [],
+			coursesData_filtered: [],
 			formData: {
 				name: "",
 				email: "",
@@ -36,6 +37,7 @@ class Survey extends Page {
 				age: "",
 				province: "",
 				province_id: "",
+				course: "",
 				course_id: "",
 				question: [
 					{ id: "1", answer: "" },
@@ -77,7 +79,7 @@ class Survey extends Page {
 			this.setState({
 				autoCompleteVisibility: {
 					province: false,
-					city: false,
+					course: false,
 				},
 			});
 		}
@@ -99,6 +101,21 @@ class Survey extends Page {
 		this.setState({ provincesData_filtered: result });
 	};
 
+	selectCourse = (e, course) => {
+		if (typeof course != "undefined") {
+			let formData = this.state.formData;
+			formData.course = course.title;
+			formData.course_id = course.uuid;
+
+			this.setState({
+				autoCompleteVisibility: {
+					province: false,
+					course: false,
+				},
+			});
+		}
+	};
+
 	loadCoursesData = () => {
 		$.getJSON(API_COURSE_BASE_URL).then((data) => {
 			this.setState({
@@ -107,11 +124,17 @@ class Survey extends Page {
 		});
 	};
 
+	loadCoursesData_filtered = (keyword) => {
+		let result = this.state.coursesData.filter((course) =>
+			course.title.toLowerCase().includes(keyword.toLowerCase()),
+		);
+
+		this.setState({ coursesData_filtered: result });
+	};
+
 	handleFocus = (type, state) => {
 		let { autoCompleteVisibility } = this.state;
 		autoCompleteVisibility[type] = state;
-
-		this.setState({ autoCompleteVisibility });
 
 		if (!this.state.formData[type]) {
 			this.setState({ provincesData_filtered: this.state.provincesData });
@@ -141,13 +164,21 @@ class Survey extends Page {
 				this.setState({
 					autoCompleteVisibility: {
 						province: true,
-						city: false,
+						course: false,
 					},
 				});
 				this.state.pointer.province = 0;
 				break;
-			case "course":
-				formData.course_id = value;
+			case "pelajaran":
+				formData.course = value;
+				this.loadCoursesData_filtered(value);
+				this.setState({
+					autoCompleteVisibility: {
+						province: false,
+						course: true,
+					},
+				});
+				this.state.pointer.course = 0;
 				break;
 			case "question_1":
 				formData.question[0].answer = value;
@@ -217,6 +248,49 @@ class Survey extends Page {
 				this.state.provincesData_filtered[pointer.province].name;
 			this.state.formData.province_id =
 				this.state.provincesData_filtered[pointer.province].province_id;
+		}
+	};
+
+	ArrowKeySelectCourse = (e) => {
+		this.state.startPointer = true;
+
+		let pointer = this.state.pointer;
+
+		if (e.keyCode == "38") {
+			if (pointer.course > 0) {
+				pointer.course--;
+			}
+
+			if (pointer.course > 5) {
+				let position = $(".autocomplete-list").scrollTop();
+				$(".autocomplete-list").scrollTop(position - 36);
+			}
+
+			this.setState({ pointer });
+		} else if (e.keyCode == "40") {
+			if (pointer.course > 5) {
+				let position = $(".autocomplete-list").scrollTop();
+				$(".autocomplete-list").scrollTop(position + 36);
+			}
+
+			if (pointer.course < this.state.coursesData_filtered.length - 1) {
+				pointer.course++;
+			}
+			this.setState({ pointer });
+		} else if (e.keyCode == "13") {
+			e.preventDefault();
+			this.handleAutocompleteBlur("course");
+		}
+
+		if (
+			this.state.coursesData_filtered.length &&
+			typeof this.state.coursesData_filtered[pointer.course] !=
+				"undefined"
+		) {
+			this.state.formData.course =
+				this.state.coursesData_filtered[pointer.course].title;
+			this.state.formData.course_id =
+				this.state.coursesData_filtered[pointer.course].uuid;
 		}
 	};
 
@@ -308,6 +382,10 @@ class Survey extends Page {
 					this.state.provincesData_filtered[
 						this.state.pointer.province
 					],
+				);
+			} else if (type == "course") {
+				this.selectCourse(
+					this.state.coursesData_filtered[this.state.pointer.course],
 				);
 			}
 
@@ -582,28 +660,79 @@ class Survey extends Page {
 								<p>Topik Pelatihan yang Anda Ikuti</p>
 							</Col>
 							<Col s={12} m={12} l={12}>
-								<select
-									name="course"
+								<input
+									name="pelajaran"
+									type="text"
 									placeholder="Masukkan Kelas yang Anda Ikuti"
-									onChange={this.handleChange}
-									className={
-										"drop-down " +
-										(this.state.formData.course
-											? "text-inherit"
-											: "text-grey")
+									onBlur={() =>
+										this.handleAutocompleteBlur("course")
 									}
-								>
-									<option value="" disabled selected>
-										Pilih Kelas yang Anda Ikuti
-									</option>
-									{this.state.coursesData.map((item) => (
-										<option value={item.uuid}>
-											{item.title}
-										</option>
-									))}
-								</select>
-								<div className="helper-text font-orange-red inline-block font-tiny">
-									{formErrors.errorCourse}
+									onChange={this.handleChange}
+									onFocus={() =>
+										this.handleFocus("course", true)
+									}
+									onKeyDown={this.ArrowKeySelectCourse}
+									value={formData.course}
+									className="autocomplete-form"
+									autoComplete="off"
+									disabled={
+										this.state.coursesData.length
+											? false
+											: true
+									}
+								/>
+								<div className="autocomplete-form position-relative">
+									<div
+										className={
+											(this.state.autoCompleteVisibility
+												.course == true
+												? ""
+												: "autocomplete-none") +
+											" autocomplete-container"
+										}
+									>
+										<ul
+											className="autocomplete-list width-100"
+											onMouseEnter={() =>
+												this.handleAutoCompleteActive(
+													"course",
+													true,
+												)
+											}
+											onMouseLeave={() =>
+												this.handleAutoCompleteActive(
+													"course",
+													false,
+												)
+											}
+										>
+											{this.state.coursesData_filtered.map(
+												(item, index) => (
+													<li
+														className={
+															"autocomplete-item" +
+															(index ==
+															this.state.pointer
+																.course
+																? " active"
+																: "")
+														}
+														onClick={(e) =>
+															this.selectCourse(
+																e,
+																item,
+															)
+														}
+													>
+														{item.title}
+													</li>
+												),
+											)}
+										</ul>
+									</div>
+									<div className="helper-text font-orange-red inline-block font-tiny">
+										{formErrors.errorCourse}
+									</div>
 								</div>
 							</Col>
 						</Row>
